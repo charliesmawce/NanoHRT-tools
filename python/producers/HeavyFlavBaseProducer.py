@@ -1,4 +1,4 @@
-import os
+/jimport os
 import itertools
 import numpy as np
 import ROOT
@@ -16,7 +16,7 @@ import logging
 logger = logging.getLogger('nano')
 configLogger('nano', loglevel=logging.INFO)
 
-lumi_dict = {2015: 19.52, 2016: 16.81, 2017: 41.48, 2018: 59.83,20220: 7.98, 20221: 26.67}
+lumi_dict = {2015: 19.52, 2016: 16.81, 2017: 41.48, 2018: 59.83, 20220: 7.98, 20221: 26.67, 20230: 17.794, 20231: 9.451}
 
 
 class _NullObject:
@@ -120,9 +120,9 @@ class HeavyFlavBaseProducer(Module, object):
                     version=ver, cache_suffix='mass') for ver in self._opts['mass_regression_versions']]
 
         # https://twiki.cern.ch/twiki/bin/viewauth/CMS/BtagRecommendation
-        self.DeepJet_WP_L = {2015: 0.0508, 2016: 0.0480, 2017: 0.0532, 2018: 0.0490,20220: 0.0583,20221: 0.0614}[self.year]
-        self.DeepJet_WP_M = {2015: 0.2598, 2016: 0.2489, 2017: 0.3040, 2018: 0.2783,20220: 0.3086,20221: 0.3196}[self.year]
-        self.DeepJet_WP_T = {2015: 0.6502, 2016: 0.6377, 2017: 0.7476, 2018: 0.7100,20220: 0.7183,20221: 0.7300}[self.year]
+        self.DeepJet_WP_L = {2015: 0.0508, 2016: 0.0480, 2017: 0.0532, 2018: 0.0490, 20220: 0.0583, 20221: 0.0614, 20230: 0.0479, 20231: 0.048}[self.year]
+        self.DeepJet_WP_M = {2015: 0.2598, 2016: 0.2489, 2017: 0.3040, 2018: 0.2783,20220: 0.3086,20221: 0.3196, 20230: 0.2431, 20231: 0.2435}[self.year]
+        self.DeepJet_WP_T = {2015: 0.6502, 2016: 0.6377, 2017: 0.7476, 2018: 0.7100,20220: 0.7183,20221: 0.7300, 20230: 0.6553, 20231: 0.6563}[self.year] 
 
     def beginJob(self):
         if self._needsJMECorr:
@@ -558,10 +558,10 @@ class HeavyFlavBaseProducer(Module, object):
                     j.pn_QCD = convert_prob(j, None, prefix='ParticleNetMD_prob')
                 else:
                     if (self.year == 2015 or self.year == 2016 or self.year == 2017 or self.year == 2018):
-                        j.pn_Xbb = j.particleNetMD_Xbb
-                        j.pn_Xcc = j.particleNetMD_Xcc
+                        j.pn_Xbb = j.particleNetMD_Xbb   
+                        j.pn_Xcc = j.particleNetMD_Xcc  
                         j.pn_Xqq = j.particleNetMD_Xqq
-                        j.pn_QCD = j.particleNetMD_QCD
+                        j.pn_QCD = j.particleNetMD_QCD  
                     else:
                         j.pn_Xbb = j.particleNet_XbbVsQCD
                         j.pn_Xcc = j.particleNet_XccVsQCD
@@ -596,9 +596,9 @@ class HeavyFlavBaseProducer(Module, object):
             event.Flag_EcalDeadCellTriggerPrimitiveFilter and
             event.Flag_BadPFMuonFilter and
             event.Flag_BadPFMuonDzFilter and
-            event.Flag_eeBadScFilter
-        )
-        if self.year in (2017, 2018, 20220, 20221):
+            event.Flag_eeBadScFilter                
+        )                                           
+        if self.year in (2017, 2018, 20220, 20221, 20230, 20231): 
             met_filters = met_filters and event.Flag_ecalBadCalibFilter
         self.out.fillBranch("passmetfilters", met_filters)
 
@@ -623,6 +623,11 @@ class HeavyFlavBaseProducer(Module, object):
             vetomaps_file = ROOT.TFile.Open("/afs/cern.ch/user/l/lpaizano/JME_Trees/CMSSW_11_1_0_pre5_PY3/src/PhysicsTools/NanoHRTTools/data/jme/jet_veto_maps/Summer22_23Sep2023/Summer22_23Sep2023_RunCD_v1.root","READ")
         elif self.year == 20221:
             vetomaps_file = ROOT.TFile.Open("/afs/cern.ch/user/l/lpaizano/JME_Trees/CMSSW_11_1_0_pre5_PY3/src/PhysicsTools/NanoHRTTools/data/jme/jet_veto_maps/Summer22EE_23Sep2023/Summer22EE_23Sep2023_RunEFG_v1.root","READ")
+        elif self.year == 20230:
+            vetomaps_file = ROOT.TFile.Open("/afs/cern.ch/user/h/hlarson/topwSF/CMSSW_13_0_18/src/PhysicsTools/NanoHRTTools/data/jme/jet_veto_maps/Summer23Prompt23/Summer23Prompt23_RunC_v1.root","READ")
+        elif self.year == 20231:
+            vetomaps_file = ROOT.TFile.Open("/afs/cern.ch/user/h/hlarson/topwSF/CMSSW_13_0_18/src/PhysicsTools/NanoHRTTools/data/jme/jet_veto_maps/Summer23Prompt23/Summer23Prompt23_RunC_v1.root","READ")
+
         vetomaps_hist = vetomaps_file.Get("jetvetomap") 
 
         vetomap_event = 0
