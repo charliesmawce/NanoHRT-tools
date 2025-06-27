@@ -12,6 +12,9 @@ jobid=$1
 source /cvmfs/cms.cern.ch/cmsset_default.sh
 tar -xf CMSSW*.tar.gz --warning=no-timestamp
 
+echo "printing pwd"
+pwd
+
 ### --------------------------------###
 #Keep track of release sandbox version
 basedir=$PWD
@@ -52,7 +55,7 @@ ls -l
 
 export MLAS_DYNAMIC_CPU_ARCH=99
 export TMPDIR=`pwd`
-python processor.py $jobid
+python3 processor.py $jobid
 status=$?
 
 ls -l

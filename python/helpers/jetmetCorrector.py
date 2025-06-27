@@ -182,13 +182,13 @@ class JetMETCorrector(object):
         elif self.year == 20230:
             # hack, actually 2023 pre BPix
             self.globalTag = 'Summer23Prompt23_V2_MC'
-            self.jerTag = ('Summer23Prompt23_RunCv1234_JRV1_MC', 
+            self.jerTag = 'Summer23Prompt23_RunCv1234_JRV1_MC'
             self.dataTags = (
                 # set the name of the tarball with a dummy run number
                 (0, 'Summer23Prompt23_RunC_V2_DATA'),
                 # (start run number (inclusive), 'tag name')
                 (367080, 'Summer23Prompt23_RunCv123_V2_DATA'),
-                (367765, 'Summer23Prompt23_RunCv4_V2_DATA'
+                (367765, 'Summer23Prompt23_RunCv4_V2_DATA'),
             )
 
         elif self.year == 20231:
@@ -199,7 +199,7 @@ class JetMETCorrector(object):
                 # set the name of the tarball with a dummy run number
                 (0, 'Summer23BPixPrompt23_V3_DATA'),
                 # (start run number (inclusive), 'tag name')
-                (367621, 'Summer23BPixPrompt23_RunD_V3_DATA')
+                (367621, 'Summer23BPixPrompt23_RunD_V3_DATA'),
             )
 
         else:

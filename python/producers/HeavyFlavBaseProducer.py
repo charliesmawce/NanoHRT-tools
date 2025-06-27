@@ -1,4 +1,4 @@
-/jimport os
+import os
 import itertools
 import numpy as np
 import ROOT
@@ -624,9 +624,9 @@ class HeavyFlavBaseProducer(Module, object):
         elif self.year == 20221:
             vetomaps_file = ROOT.TFile.Open("/afs/cern.ch/user/l/lpaizano/JME_Trees/CMSSW_11_1_0_pre5_PY3/src/PhysicsTools/NanoHRTTools/data/jme/jet_veto_maps/Summer22EE_23Sep2023/Summer22EE_23Sep2023_RunEFG_v1.root","READ")
         elif self.year == 20230:
-            vetomaps_file = ROOT.TFile.Open("/afs/cern.ch/user/h/hlarson/topwSF/CMSSW_13_0_18/src/PhysicsTools/NanoHRTTools/data/jme/jet_veto_maps/Summer23Prompt23/Summer23Prompt23_RunC_v1.root","READ")
+            vetomaps_file = ROOT.TFile.Open("/afs/cern.ch/user/h/hlarson/topwSF/CMSSW_12_6_4/src/PhysicsTools/NanoHRTTools/data/jme/jet_veto_maps/Summer23Prompt23/Summer23Prompt23_RunC_v1.root","READ")
         elif self.year == 20231:
-            vetomaps_file = ROOT.TFile.Open("/afs/cern.ch/user/h/hlarson/topwSF/CMSSW_13_0_18/src/PhysicsTools/NanoHRTTools/data/jme/jet_veto_maps/Summer23Prompt23/Summer23Prompt23_RunC_v1.root","READ")
+            vetomaps_file = ROOT.TFile.Open("/afs/cern.ch/user/h/hlarson/topwSF/CMSSW_12_6_4/src/PhysicsTools/NanoHRTTools/data/jme/jet_veto_maps/Summer23Prompt23/Summer23Prompt23_RunC_v1.root","READ")
 
         vetomaps_hist = vetomaps_file.Get("jetvetomap") 
 
