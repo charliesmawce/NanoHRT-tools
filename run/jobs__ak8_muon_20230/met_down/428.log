@@ -1,0 +1,95 @@
+000 (7944174.428.000) 07/08 17:29:05 Job submitted from host: <188.185.16.120:9618?addrs=188.185.16.120-9618+[2001-1458-d00-65--100-39b]-9618&alias=bigbird27.cern.ch&noUDP&sock=schedd_4465_3274>
+...
+040 (7944174.428.000) 07/08 17:35:03 Started transferring input files
+	Transferring to host: <188.185.215.65:9618?addrs=188.185.215.65-9618+[2001-1458-303-1e--100-3d]-9618&alias=b9p31p5914.cern.ch&noUDP&sock=slot1_4_8287_b0ea_39353>
+...
+040 (7944174.428.000) 07/08 17:35:03 Finished transferring input files
+...
+001 (7944174.428.000) 07/08 17:35:03 Job executing on host: <188.185.215.65:9618?addrs=188.185.215.65-9618+[2001-1458-303-1e--100-3d]-9618&alias=b9p31p5914.cern.ch&noUDP&sock=startd_7608_089e>
+	SlotName: slot1_4@b9p31p5914.cern.ch
+	CondorScratchDir = "/pool/condor/dir_244446"
+	Cpus = 1
+	Disk = 10047517
+	GPUs = 0
+	Memory = 3000
+...
+006 (7944174.428.000) 07/08 17:35:12 Image size of job updated: 35140
+	35  -  MemoryUsage of job (MB)
+	35140  -  ResidentSetSize of job (KB)
+...
+006 (7944174.428.000) 07/08 17:35:20 Image size of job updated: 35140
+	35  -  MemoryUsage of job (MB)
+	35344  -  ResidentSetSize of job (KB)
+...
+040 (7944174.428.000) 07/08 17:35:20 Started transferring output files
+...
+040 (7944174.428.000) 07/08 17:35:20 Finished transferring output files
+...
+012 (7944174.428.000) 07/08 17:35:20 Job was held.
+	Job held by ON_EXIT_HOLD due to exit code 1.
+	Code 3 Subcode 0
+...
+013 (7944174.428.000) 07/08 17:46:03 Job was released.
+	The job attribute PeriodicRelease expression '(NumJobStarts < 3) && ((CurrentTime - EnteredCurrentStatus) > 10 * 60)' evaluated to TRUE
+...
+040 (7944174.428.000) 07/08 17:47:16 Started transferring input files
+	Transferring to host: <188.185.194.91:9618?addrs=188.185.194.91-9618+[2001-1458-303-21--100-57]-9618&alias=b9p20p4614.cern.ch&noUDP&sock=slot1_25_8541_a834_23548>
+...
+040 (7944174.428.000) 07/08 17:47:16 Finished transferring input files
+...
+001 (7944174.428.000) 07/08 17:47:16 Job executing on host: <188.185.194.91:9618?addrs=188.185.194.91-9618+[2001-1458-303-21--100-57]-9618&alias=b9p20p4614.cern.ch&noUDP&sock=startd_7255_e7b0>
+	SlotName: slot1_25@b9p20p4614.cern.ch
+	CondorScratchDir = "/pool/condor/dir_1629670"
+	Cpus = 1
+	Disk = 10003140
+	GPUs = 0
+	Memory = 3000
+...
+006 (7944174.428.000) 07/08 17:47:30 Image size of job updated: 39560
+	39  -  MemoryUsage of job (MB)
+	39560  -  ResidentSetSize of job (KB)
+...
+006 (7944174.428.000) 07/08 17:47:36 Image size of job updated: 157184
+	43  -  MemoryUsage of job (MB)
+	43396  -  ResidentSetSize of job (KB)
+...
+040 (7944174.428.000) 07/08 17:47:37 Started transferring output files
+...
+040 (7944174.428.000) 07/08 17:47:37 Finished transferring output files
+...
+012 (7944174.428.000) 07/08 17:47:37 Job was held.
+	Job held by ON_EXIT_HOLD due to exit code 1.
+	Code 3 Subcode 0
+...
+013 (7944174.428.000) 07/08 17:58:13 Job was released.
+	The job attribute PeriodicRelease expression '(NumJobStarts < 3) && ((CurrentTime - EnteredCurrentStatus) > 10 * 60)' evaluated to TRUE
+...
+040 (7944174.428.000) 07/08 18:08:17 Started transferring input files
+	Transferring to host: <188.185.192.175:9618?addrs=188.185.192.175-9618+[2001-1458-303-1f--100-ab]-9618&alias=b9p13p2082.cern.ch&noUDP&sock=slot1_6_8820_3ce0_42557>
+...
+040 (7944174.428.000) 07/08 18:08:17 Finished transferring input files
+...
+001 (7944174.428.000) 07/08 18:08:17 Job executing on host: <188.185.192.175:9618?addrs=188.185.192.175-9618+[2001-1458-303-1f--100-ab]-9618&alias=b9p13p2082.cern.ch&noUDP&sock=startd_8675_e82b>
+	SlotName: slot1_6@b9p13p2082.cern.ch
+	CondorScratchDir = "/pool/condor/dir_2974248"
+	Cpus = 1
+	Disk = 10001380
+	GPUs = 0
+	Memory = 3000
+...
+006 (7944174.428.000) 07/08 18:08:26 Image size of job updated: 175000
+	46  -  MemoryUsage of job (MB)
+	47080  -  ResidentSetSize of job (KB)
+...
+006 (7944174.428.000) 07/08 18:08:32 Image size of job updated: 175000
+	50  -  MemoryUsage of job (MB)
+	50664  -  ResidentSetSize of job (KB)
+...
+040 (7944174.428.000) 07/08 18:08:32 Started transferring output files
+...
+040 (7944174.428.000) 07/08 18:08:32 Finished transferring output files
+...
+012 (7944174.428.000) 07/08 18:08:32 Job was held.
+	Job held by ON_EXIT_HOLD due to exit code 1.
+	Code 3 Subcode 0
+...

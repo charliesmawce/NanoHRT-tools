@@ -1,0 +1,78 @@
+b9p16p2468.cern.ch
+workdir: /srv
+args: 21
+total 116724
+-rw-r--r--. 1 hlarson zh 117553743 Jul  8 17:57 CMSSW.tar.gz
+-rw-r--r--. 1 hlarson zh         0 Jul  8 17:57 _condor_stderr
+-rw-r--r--. 1 hlarson zh        42 Jul  8 17:57 _condor_stdout
+-rw-r--r--. 1 hlarson zh       473 Jul  8 17:57 heavyFlavSFTree_cfg.json
+-rw-------. 1 hlarson zh      2591 Jul  8 17:57 hlarson.cc
+-rw-r--r--. 1 hlarson zh       885 Jul  8 17:57 keep_and_drop_input.txt
+-rw-r--r--. 1 hlarson zh       434 Jul  8 17:57 keep_and_drop_output.txt
+-rw-r--r--. 1 hlarson zh   1935074 Jul  8 17:57 metadata.json
+-rwxr-xr-x. 1 hlarson zh      5147 Jul  8 17:57 processor.py
+-rwxr-xr-x. 1 hlarson zh      1555 Jul  8 17:57 run_postproc_condor.sh
+drwxr-x---. 6 hlarson zh        71 Jul  8 17:57 scratch
+drwx------. 2 hlarson zh         6 Jul  8 17:57 srv
+drwx------. 2 hlarson zh         6 Jul  8 17:57 tmp
+drwx------. 3 hlarson zh        17 Jul  8 17:57 var
+drwxrwxrwt. 2 hlarson zh         6 Jul  8 17:57 var_tmp
+printing pwd
+/srv
+>>> creating new release CMSSW_12_6_4
+>>> preparing sandbox release CMSSW_12_6_4
+>>> fixing python paths
+[2025-07-08 17:57:35] wrapper ready
+total 116728
+-rw-r--r--. 1 hlarson zh 117553743 Jul  8 17:57 CMSSW.tar.gz
+drwxr-xr-x. 9 hlarson zh       124 Jul  8 17:57 CMSSW_12_6_4
+-rw-r--r--. 1 hlarson zh       163 Jul  8 17:57 _condor_stderr
+-rw-r--r--. 1 hlarson zh      1140 Jul  8 17:57 _condor_stdout
+-rw-r--r--. 1 hlarson zh       473 Jul  8 17:57 heavyFlavSFTree_cfg.json
+-rw-------. 1 hlarson zh      2591 Jul  8 17:57 hlarson.cc
+-rw-r--r--. 1 hlarson zh       885 Jul  8 17:57 keep_and_drop_input.txt
+-rw-r--r--. 1 hlarson zh       434 Jul  8 17:57 keep_and_drop_output.txt
+-rw-r--r--. 1 hlarson zh   1935074 Jul  8 17:57 metadata.json
+-rwxr-xr-x. 1 hlarson zh      5147 Jul  8 17:57 processor.py
+-rwxr-xr-x. 1 hlarson zh      1555 Jul  8 17:57 run_postproc_condor.sh
+drwxr-x---. 6 hlarson zh        71 Jul  8 17:57 scratch
+drwx------. 2 hlarson zh         6 Jul  8 17:57 srv
+drwx------. 3 hlarson zh        26 Jul  8 17:57 tmp
+drwx------. 3 hlarson zh        17 Jul  8 17:57 var
+drwxrwxrwt. 2 hlarson zh         6 Jul  8 17:57 var_tmp
+Loading heavyFlavSFTreeFromConfig from PhysicsTools.NanoHRTTools.producers.HeavyFlavSFTreeProducer 
+Loading puWeight_20230 from PhysicsTools.NanoAODTools.postprocessing.modules.common.puWeightProducer 
+total 116728
+-rw-r--r--. 1 hlarson zh 117553743 Jul  8 17:57 CMSSW.tar.gz
+drwxr-xr-x. 9 hlarson zh       124 Jul  8 17:57 CMSSW_12_6_4
+-rw-r--r--. 1 hlarson zh      2255 Jul  8 17:57 _condor_stderr
+-rw-r--r--. 1 hlarson zh      2342 Jul  8 17:57 _condor_stdout
+-rw-r--r--. 1 hlarson zh       473 Jul  8 17:57 heavyFlavSFTree_cfg.json
+-rw-------. 1 hlarson zh      2591 Jul  8 17:57 hlarson.cc
+-rw-r--r--. 1 hlarson zh       885 Jul  8 17:57 keep_and_drop_input.txt
+-rw-r--r--. 1 hlarson zh       434 Jul  8 17:57 keep_and_drop_output.txt
+-rw-r--r--. 1 hlarson zh   1935074 Jul  8 17:57 metadata.json
+-rwxr-xr-x. 1 hlarson zh      5147 Jul  8 17:57 processor.py
+-rwxr-xr-x. 1 hlarson zh      1555 Jul  8 17:57 run_postproc_condor.sh
+drwxr-x---. 6 hlarson zh        71 Jul  8 17:57 scratch
+drwx------. 2 hlarson zh         6 Jul  8 17:57 srv
+drwx------. 3 hlarson zh        26 Jul  8 17:57 tmp
+drwx------. 3 hlarson zh        17 Jul  8 17:57 var
+drwxrwxrwt. 2 hlarson zh         6 Jul  8 17:57 var_tmp
+total 116728
+-rw-r--r--. 1 hlarson zh 117553743 Jul  8 17:57 CMSSW.tar.gz
+drwxr-xr-x. 9 hlarson zh       124 Jul  8 17:57 CMSSW_12_6_4
+-rw-r--r--. 1 hlarson zh      2309 Jul  8 17:57 _condor_stderr
+-rw-r--r--. 1 hlarson zh      3342 Jul  8 17:57 _condor_stdout
+-rw-r--r--. 1 hlarson zh       473 Jul  8 17:57 heavyFlavSFTree_cfg.json
+-rw-------. 1 hlarson zh      2591 Jul  8 17:57 hlarson.cc
+-rw-r--r--. 1 hlarson zh       885 Jul  8 17:57 keep_and_drop_input.txt
+-rw-r--r--. 1 hlarson zh       434 Jul  8 17:57 keep_and_drop_output.txt
+-rw-r--r--. 1 hlarson zh   1935074 Jul  8 17:57 metadata.json
+-rwxr-xr-x. 1 hlarson zh      5147 Jul  8 17:57 processor.py
+-rwxr-xr-x. 1 hlarson zh      1555 Jul  8 17:57 run_postproc_condor.sh
+drwxr-x---. 6 hlarson zh        71 Jul  8 17:57 scratch
+drwx------. 2 hlarson zh         6 Jul  8 17:57 srv
+drwx------. 3 hlarson zh        26 Jul  8 17:57 tmp
+drwx------. 3 hlarson zh        17 Jul  8 17:57 var
+drwxrwxrwt. 2 hlarson zh         6 Jul  8 17:57 var_tmp

@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#set -o verbose
 workdir=`pwd`
 
 echo `hostname`
@@ -64,5 +64,5 @@ if [ $status -ne 0 ]; then
     rm *.root
     ls -l
 fi
-
+#set +o verbose
 exit $status

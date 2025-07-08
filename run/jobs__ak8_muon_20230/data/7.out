@@ -1,0 +1,227 @@
+b9p24p9314.cern.ch
+workdir: /srv
+args: 7
+total 114880
+-rw-r--r--. 1 hlarson zh 117551767 Jul  2 21:28 CMSSW.tar.gz
+-rwxr-xr-x. 1 hlarson zh      6303 Jul  2 21:28 Cert_Collisions2023_366442_370790_Golden.json
+-rw-r--r--. 1 hlarson zh         0 Jul  2 21:28 _condor_stderr
+-rw-r--r--. 1 hlarson zh        41 Jul  2 21:28 _condor_stdout
+-rw-r--r--. 1 hlarson zh       466 Jul  2 21:28 heavyFlavSFTree_cfg.json
+-rw-------. 1 hlarson zh      2591 Jul  2 21:28 hlarson.cc
+-rw-r--r--. 1 hlarson zh       885 Jul  2 21:28 keep_and_drop_input.txt
+-rw-r--r--. 1 hlarson zh       434 Jul  2 21:28 keep_and_drop_output.txt
+-rw-r--r--. 1 hlarson zh     40039 Jul  2 21:28 metadata.json
+-rwxr-xr-x. 1 hlarson zh      5147 Jul  2 21:28 processor.py
+-rwxr-xr-x. 1 hlarson zh      1555 Jul  2 21:28 run_postproc_condor.sh
+drwxr-x---. 6 hlarson zh        71 Jul  2 21:28 scratch
+drwx------. 2 hlarson zh        10 Jul  2 21:28 srv
+drwx------. 2 hlarson zh        10 Jul  2 21:28 tmp
+drwx------. 3 hlarson zh        25 Jul  2 21:28 var
+drwxrwxrwt. 2 hlarson zh        10 Jul  2 21:28 var_tmp
+printing pwd
+/srv
+>>> creating new release CMSSW_12_6_4
+>>> preparing sandbox release CMSSW_12_6_4
+>>> fixing python paths
+[2025-07-02 21:28:47] wrapper ready
+total 114884
+-rw-r--r--. 1 hlarson zh 117551767 Jul  2 21:28 CMSSW.tar.gz
+drwxr-xr-x. 9 hlarson zh       124 Jul  2 21:28 CMSSW_12_6_4
+-rwxr-xr-x. 1 hlarson zh      6303 Jul  2 21:28 Cert_Collisions2023_366442_370790_Golden.json
+-rw-r--r--. 1 hlarson zh       163 Jul  2 21:28 _condor_stderr
+-rw-r--r--. 1 hlarson zh      1233 Jul  2 21:28 _condor_stdout
+-rw-r--r--. 1 hlarson zh       466 Jul  2 21:28 heavyFlavSFTree_cfg.json
+-rw-------. 1 hlarson zh      2591 Jul  2 21:28 hlarson.cc
+-rw-r--r--. 1 hlarson zh       885 Jul  2 21:28 keep_and_drop_input.txt
+-rw-r--r--. 1 hlarson zh       434 Jul  2 21:28 keep_and_drop_output.txt
+-rw-r--r--. 1 hlarson zh     40039 Jul  2 21:28 metadata.json
+-rwxr-xr-x. 1 hlarson zh      5147 Jul  2 21:28 processor.py
+-rwxr-xr-x. 1 hlarson zh      1555 Jul  2 21:28 run_postproc_condor.sh
+drwxr-x---. 6 hlarson zh        71 Jul  2 21:28 scratch
+drwx------. 2 hlarson zh        10 Jul  2 21:28 srv
+drwx------. 3 hlarson zh        34 Jul  2 21:28 tmp
+drwx------. 3 hlarson zh        25 Jul  2 21:28 var
+drwxrwxrwt. 2 hlarson zh        10 Jul  2 21:28 var_tmp
+Loading heavyFlavSFTreeFromConfig from PhysicsTools.NanoHRTTools.producers.HeavyFlavSFTreeProducer 
+['root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/5997b083-c529-49ee-9b2c-e0587112c9a9.root', 'root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/8194e374-f448-418c-a0b2-06b1343d812c.root', 'root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/9061cdcb-1976-4a8c-b8ec-69b636217266.root', 'root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/288259ff-ff2b-471d-b77a-917d9f75fd6a.root', 'root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/392153ca-4ad3-4afd-8053-03a377e18769.root', 'root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/0876987c-283a-4c55-a65a-e19a5dd0b591.root', 'root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/2910888d-4032-4c20-bc85-8f3db77f152f.root', 'root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/32863139-96dc-4b86-afba-5d7411e659f1.root', 'root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/82868782-fb52-4883-b326-871260163f4d.root', 'root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/a94e94c8-ceed-4f81-9421-58be4affc4d4.root', 'root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/aaa9a287-f52e-4e8d-a287-5375be4e2348.root', 'root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/b2302a7d-0f96-492a-ba37-84088a8acd3a.root', 'root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/b5197aaf-bdd9-44a2-af07-385e36bf9d1c.root', 'root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/b62545f1-6761-4a06-8d2b-9b02e10685a7.root', 'root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/d4f233ea-93dc-408f-8e87-900d50641164.root', 'root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/d6d5b59c-bf67-4829-8d42-a1979dcfdc6a.root', 'root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/d41fc647-b6df-4331-b7aa-903ba7810a23.root', 'root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/d390b7fe-b05d-4cad-a491-d6548978ce8d.root', 'root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/d2522b66-5d37-4da2-b22f-b6daf0cb671e.root', 'root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/decdd57c-b601-4631-9811-eb7bb4004803.root']
+Will write selected trees to .
+Pre-select 2039 entries out of 567277 (0.36%)
+Processed 2039 preselected entries from root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/5997b083-c529-49ee-9b2c-e0587112c9a9.root (567277 entries). Finally selected 102 entries
+Done ./5997b083-c529-49ee-9b2c-e0587112c9a9_Skim.root
+Pre-select 168 entries out of 51222 (0.33%)
+Processed 168 preselected entries from root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/8194e374-f448-418c-a0b2-06b1343d812c.root (51222 entries). Finally selected 9 entries
+Done ./8194e374-f448-418c-a0b2-06b1343d812c_Skim.root
+Pre-select 952 entries out of 267267 (0.36%)
+Processed 952 preselected entries from root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/9061cdcb-1976-4a8c-b8ec-69b636217266.root (267267 entries). Finally selected 42 entries
+Done ./9061cdcb-1976-4a8c-b8ec-69b636217266_Skim.root
+Pre-select 3336 entries out of 897240 (0.37%)
+Processed 3336 preselected entries from root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/288259ff-ff2b-471d-b77a-917d9f75fd6a.root (897240 entries). Finally selected 158 entries
+Done ./288259ff-ff2b-471d-b77a-917d9f75fd6a_Skim.root
+Pre-select 4247 entries out of 1113738 (0.38%)
+Processed 4247 preselected entries from root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/392153ca-4ad3-4afd-8053-03a377e18769.root (1113738 entries). Finally selected 173 entries
+Done ./392153ca-4ad3-4afd-8053-03a377e18769_Skim.root
+Pre-select 7 entries out of 2137 (0.33%)
+Processed 7 preselected entries from root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/0876987c-283a-4c55-a65a-e19a5dd0b591.root (2137 entries). Finally selected 1 entries
+Done ./0876987c-283a-4c55-a65a-e19a5dd0b591_Skim.root
+Pre-select 3718 entries out of 1000973 (0.37%)
+Processed 3718 preselected entries from root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/2910888d-4032-4c20-bc85-8f3db77f152f.root (1000973 entries). Finally selected 156 entries
+Done ./2910888d-4032-4c20-bc85-8f3db77f152f_Skim.root
+Pre-select 3267 entries out of 883561 (0.37%)
+Processed 3267 preselected entries from root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/32863139-96dc-4b86-afba-5d7411e659f1.root (883561 entries). Finally selected 156 entries
+Done ./32863139-96dc-4b86-afba-5d7411e659f1_Skim.root
+Pre-select 2084 entries out of 587567 (0.35%)
+Processed 2084 preselected entries from root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/82868782-fb52-4883-b326-871260163f4d.root (587567 entries). Finally selected 109 entries
+Done ./82868782-fb52-4883-b326-871260163f4d_Skim.root
+Pre-select 3355 entries out of 958053 (0.35%)
+Processed 3355 preselected entries from root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/a94e94c8-ceed-4f81-9421-58be4affc4d4.root (958053 entries). Finally selected 147 entries
+Done ./a94e94c8-ceed-4f81-9421-58be4affc4d4_Skim.root
+Pre-select 2399 entries out of 648984 (0.37%)
+Processed 2399 preselected entries from root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/aaa9a287-f52e-4e8d-a287-5375be4e2348.root (648984 entries). Finally selected 115 entries
+Done ./aaa9a287-f52e-4e8d-a287-5375be4e2348_Skim.root
+Pre-select 1853 entries out of 487900 (0.38%)
+Processed 1853 preselected entries from root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/b2302a7d-0f96-492a-ba37-84088a8acd3a.root (487900 entries). Finally selected 87 entries
+Done ./b2302a7d-0f96-492a-ba37-84088a8acd3a_Skim.root
+Pre-select 446 entries out of 122608 (0.36%)
+Processed 446 preselected entries from root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/b5197aaf-bdd9-44a2-af07-385e36bf9d1c.root (122608 entries). Finally selected 24 entries
+Done ./b5197aaf-bdd9-44a2-af07-385e36bf9d1c_Skim.root
+Pre-select 1049 entries out of 284527 (0.37%)
+Processed 1049 preselected entries from root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/b62545f1-6761-4a06-8d2b-9b02e10685a7.root (284527 entries). Finally selected 46 entries
+Done ./b62545f1-6761-4a06-8d2b-9b02e10685a7_Skim.root
+Pre-select 3827 entries out of 1042168 (0.37%)
+Processed 3827 preselected entries from root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/d4f233ea-93dc-408f-8e87-900d50641164.root (1042168 entries). Finally selected 191 entries
+Done ./d4f233ea-93dc-408f-8e87-900d50641164_Skim.root
+Pre-select 108 entries out of 28587 (0.38%)
+Processed 108 preselected entries from root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/d6d5b59c-bf67-4829-8d42-a1979dcfdc6a.root (28587 entries). Finally selected 3 entries
+Done ./d6d5b59c-bf67-4829-8d42-a1979dcfdc6a_Skim.root
+Pre-select 3130 entries out of 867484 (0.36%)
+Processed 3130 preselected entries from root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/d41fc647-b6df-4331-b7aa-903ba7810a23.root (867484 entries). Finally selected 146 entries
+Done ./d41fc647-b6df-4331-b7aa-903ba7810a23_Skim.root
+Pre-select 2894 entries out of 852010 (0.34%)
+Adding file 0876987c-283a-4c55-a65a-e19a5dd0b591_Skim.root
+Adding file 288259ff-ff2b-471d-b77a-917d9f75fd6a_Skim.root
+Adding file 2910888d-4032-4c20-bc85-8f3db77f152f_Skim.root
+Adding file 32863139-96dc-4b86-afba-5d7411e659f1_Skim.root
+Adding file 392153ca-4ad3-4afd-8053-03a377e18769_Skim.root
+Adding file 5997b083-c529-49ee-9b2c-e0587112c9a9_Skim.root
+Adding file 8194e374-f448-418c-a0b2-06b1343d812c_Skim.root
+Adding file 82868782-fb52-4883-b326-871260163f4d_Skim.root
+Adding file 9061cdcb-1976-4a8c-b8ec-69b636217266_Skim.root
+Adding file a94e94c8-ceed-4f81-9421-58be4affc4d4_Skim.root
+Adding file aaa9a287-f52e-4e8d-a287-5375be4e2348_Skim.root
+Adding file b2302a7d-0f96-492a-ba37-84088a8acd3a_Skim.root
+Adding file b5197aaf-bdd9-44a2-af07-385e36bf9d1c_Skim.root
+Adding file b62545f1-6761-4a06-8d2b-9b02e10685a7_Skim.root
+Adding file d2522b66-5d37-4da2-b22f-b6daf0cb671e_Skim.root
+Adding file d390b7fe-b05d-4cad-a491-d6548978ce8d_Skim.root
+Adding file d41fc647-b6df-4331-b7aa-903ba7810a23_Skim.root
+Adding file d4f233ea-93dc-408f-8e87-900d50641164_Skim.root
+Adding file d6d5b59c-bf67-4829-8d42-a1979dcfdc6a_Skim.root
+Adding file decdd57c-b601-4631-9811-eb7bb4004803_Skim.root
+MergingEvents
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+MergingLuminosityBlocks
+MergingRuns
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+Mergingtag
+Processed 2894 preselected entries from root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/d390b7fe-b05d-4cad-a491-d6548978ce8d.root (852010 entries). Finally selected 128 entries
+Done ./d390b7fe-b05d-4cad-a491-d6548978ce8d_Skim.root
+Pre-select 810 entries out of 226131 (0.36%)
+Processed 810 preselected entries from root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/d2522b66-5d37-4da2-b22f-b6daf0cb671e.root (226131 entries). Finally selected 38 entries
+Done ./d2522b66-5d37-4da2-b22f-b6daf0cb671e_Skim.root
+Pre-select 964 entries out of 271859 (0.35%)
+Processed 964 preselected entries from root://xrootd-cms.infn.it////store/data/Run2023C/Muon0/NANOAOD/22Sep2023_v4-v1/50000/decdd57c-b601-4631-9811-eb7bb4004803.root (271859 entries). Finally selected 54 entries
+Done ./decdd57c-b601-4631-9811-eb7bb4004803_Skim.root
+Total time 7998.4 sec. to process 11161293 events. Rate = 1395.4 Hz.
+xrdcp --silent -p -f Muon0_7_tree.root root://eosuser.cern.ch///eos/user/h/hlarson/NanoHRT/_ak8_muon_20230/data/pieces/Muon0_7_tree.root
+total 114908
+-rw-r--r--. 1 hlarson zh 117551767 Jul  2 21:28 CMSSW.tar.gz
+drwxr-xr-x. 9 hlarson zh       124 Jul  2 21:28 CMSSW_12_6_4
+-rwxr-xr-x. 1 hlarson zh      6303 Jul  2 21:28 Cert_Collisions2023_366442_370790_Golden.json
+-rw-r--r--. 1 hlarson zh      9351 Jul  2 23:42 _condor_stderr
+-rw-r--r--. 1 hlarson zh     13818 Jul  2 23:42 _condor_stdout
+-rw-r--r--. 1 hlarson zh       466 Jul  2 21:28 heavyFlavSFTree_cfg.json
+-rw-------. 1 hlarson zh      4771 Jul  2 23:42 hlarson.cc
+-rw-r--r--. 1 hlarson zh       885 Jul  2 21:28 keep_and_drop_input.txt
+-rw-r--r--. 1 hlarson zh       434 Jul  2 21:28 keep_and_drop_output.txt
+-rw-r--r--. 1 hlarson zh     40039 Jul  2 21:28 metadata.json
+-rwxr-xr-x. 1 hlarson zh      5147 Jul  2 21:28 processor.py
+-rwxr-xr-x. 1 hlarson zh      1555 Jul  2 21:28 run_postproc_condor.sh
+drwxr-x---. 6 hlarson zh        71 Jul  2 21:28 scratch
+drwx------. 2 hlarson zh        10 Jul  2 21:28 srv
+drwx------. 3 hlarson zh        34 Jul  2 21:28 tmp
+drwx------. 3 hlarson zh        25 Jul  2 21:28 var
+drwxrwxrwt. 2 hlarson zh        10 Jul  2 21:28 var_tmp
