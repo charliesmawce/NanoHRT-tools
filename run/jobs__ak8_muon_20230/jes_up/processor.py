@@ -57,6 +57,7 @@ def main(args):
         obj = sys.modules[mod]
         selnames = names.split(",")
         for name in dir(obj):
+            print("error starts at this for loop. name is %s, and mod is %s" % (name, mod))
             if name[0] == "_":
                 continue
             if name in selnames:
