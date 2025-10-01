@@ -20,6 +20,6 @@ periodic_release      = (NumJobStarts < 3) && ((CurrentTime - EnteredCurrentStat
 transfer_output_files = ""
 
 +MaxRuntime = 24*60*60
-My.WantOS = "el8"
+MyWantOS="el8"
 
-queue jobid from /afs/cern.ch/user/h/hlarson/topwSF/CMSSW_12_6_4/src/PhysicsTools/NanoHRTTools/run/jobs__ak8_muon_20230/jes_down/submit.txt
+queue jobid from /afs/cern.ch/user/h/hlarson/topwSF/CMSSW_12_6_4/src/PhysicsTools/NanoHRTTools/run/wtolnu.txt

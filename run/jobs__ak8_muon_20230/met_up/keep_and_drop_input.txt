@@ -43,4 +43,4 @@ dropmatch n?GenIsolatedPhoton_.+
 # dropmatch n?PuppiMET_.+
 dropmatch n?CaloMET_.+
 dropmatch n?ChsMET_.+
-dropmatch n?RawPuppiMET_.+
+#dropmatch n?RawPuppiMET_.+

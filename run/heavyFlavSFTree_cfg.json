@@ -2,7 +2,7 @@
   "applyHEMUnc": false,
   "channel": "muon",
   "jec": false,
-  "jer": "nominal",
+  "jer": null,
   "jes": null,
   "jes_source": "",
   "jes_uncertainty_file_prefix": "",
@@ -23,5 +23,5 @@
     "V02c",
     "V02d"
   ],
-  "year": 20230
+  "year": 20231
 }
